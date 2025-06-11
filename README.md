@@ -1,16 +1,41 @@
-## Hi there 👋
+## Hello! I'm Santino, this is my personal profile with info about me and my projects.
 
-<!--
-**Sancol610/Sancol610** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+```java
+public class AboutMe {
+
+  public static void main(String[] args) {
+
+    final String ME = "Santino Colombo Ruscio 🙋‍♂️";
+
+    final String[] LANGUAGES = {
+      "Java", 
+      "Javascript", 
+      "HTML", 
+      "CSS", 
+      "Python", 
+      "SQL"
+    };
+
+    final String[] INTERESTS = {
+      "Gaming 🎮", 
+      "Programming 💻", 
+      "Music 🎵"
+    };
+
+    final String CONTACT = "www.linkedin.com/in/santino-colombo-ruscio";
+
+    System.out.println("Hello! I'm " + ME);
+    System.out.println("Languages I use:");
+    for(String lang : LANGUAGES) {
+      System.out.println("- " + lang);
+    }
+    System.out.println("My interests include:");
+    for(String interest : INTERESTS) {
+      System.out.println("- " + interest);
+    }
+    System.out.println("Connect with me on LinkedIn: " + CONTACT);
+  }
+}
